@@ -1,0 +1,212 @@
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+
+    margin: 0 0 32px 0;
+    background-image: url('/src/assets/images/pexelsHero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: relative;
+    height: 912px;
+    width: 100%;
+}
+
+.CTA-block {
+    margin: auto ;
+}
+
+.titre-hero {
+    display: flex;
+    font-family: Roboto;
+    font-size: 50px;
+    color: white;
+    text-shadow: 1px 1px 9px black;
+}
+
+.CTA-BTN {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    gap: 350px;
+    background-color: #ffffff92;
+    padding: 20px 40px;
+    border-radius: 20px;
+}
+
+.anime {
+    font-family: 'Inter Tight';
+    font-size: 25px;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------- */
+
+.artist-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.titre-artiste, .titre-event {
+    font-family: Roboto;
+    font-size: 50px;
+    text-align: center;
+}
+
+.sous-titre-artiste, .sous-titre-event {
+    font-family: 'Inter Tight';
+    margin-top: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.container-cards-artist {
+    display: flex;
+    margin: 50px 0;
+    height: 350px;
+    padding: 30px 70px;
+    border: 2px solid #FD7878;
+    border-radius: 30px;
+}
+
+.card-artist {
+    border: 1px solid #FD7878;
+    border-radius: 15px;
+}
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------------------------------------- */
+
+.event-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.event {
+    margin: 100px auto 0 250px;
+    font-family: 'Inter Tight';
+    font-size: 20px;
+}
+
+.card-event {
+    display: flex;
+    flex-direction: column;
+    width: 310px;
+    /* height: 400px; */
+    border: 1px solid rgb(98, 98, 98);
+    gap: 20px;
+    /* position: relative; */
+    margin-top: 100px;
+}
+
+.description-event, .sticks {
+    padding: 20px 50px;
+    font-family: 'Inter Tight';
+}
+
+.date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.jour {
+    font-family: 'Inter Tight';
+    font-size: 96px;
+}
+
+.mois-an {
+    font-family: 'Inter Tight';
+    font-size: 40px;
+}
+
+.festive-standard {
+    position: relative;
+    top: 54px;
+
+}
+
+.CTA-event {
+    position: relative;
+    bottom: 70px;
+    width: 100px;
+    margin:0 auto;
+    background-color: #FD7878;
+    color: white;
+}
+
+.Cards-event-container {
+    display: flex;
+    gap: 20px;
+}
+
+.CTA-see-more {
+    margin-top: 30px;
+    padding: 7px 50px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Inter Tight';
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px black;
+    background-color: #FD7878;
+    color: white;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.container-card-special {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.card-event-spacial {
+    display: flex;
+    border: 2px solid black;
+    margin-top: 100px;
+    position: relative;
+    /* height: 347px; */
+}
+
+.festiveProxMax {
+    width: inherit;
+    height: inherit;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.CTA-eventSpecial {
+    margin-top: 20px;
+    padding: 7px 50px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Inter Tight';
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px black;
+    background-color: #FD7878;
+    color: white;
+}
+

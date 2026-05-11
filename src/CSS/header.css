@@ -1,0 +1,83 @@
+header {
+    width: 100vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 11rem;
+    top: 1rem;
+    position: absolute;
+    z-index: 10;
+    margin: 3.5rem 2rem;
+    padding: 20px 40px;
+    backdrop-filter: blur(0.7rem);
+    border-radius: 1rem;
+    border: 0.2px solid rgba(255, 255, 255, 0.546);
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    list-style-type: none;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    font-family: 'Inter Tight';
+    font-size: 18px;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Inspiration;
+    font-size: 25px;
+    padding: 5px 20px;
+    background-color: #fd7878;
+    font-weight: 600;
+    color: white;
+    border-radius: 10px;
+}
+
+.cta-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.CTA-inscrire, .CTA-commencer, .CTA-decouvrir{
+    padding: 7px 20px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Inter Tight';
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px black;
+    
+}
+
+.CTA-inscrire {
+    background-color: #fff;
+}
+
+.CTA-commencer, .CTA-decouvrir {
+    background-color: #fd7878;
+    color: white;
+}
