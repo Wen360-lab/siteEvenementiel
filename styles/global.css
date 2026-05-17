@@ -1,6 +1,7 @@
-@import url(./CSS/header.css);
-@import url(./CSS/main.css);
-@import url(./CSS/footer.css);
+@import url(../styles/home/header.css);
+@import url(../styles/home/main.css);
+@import url(../styles/home/footer.css);
+
 
 * {
     padding: 0;
@@ -16,7 +17,7 @@ body, html{
 }
 
 body {
-    background-color: beige;
+    background-color: #f5f5dc;
 }
 
 html {
